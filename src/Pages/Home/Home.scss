@@ -1,0 +1,181 @@
+
+// HERO START
+
+.hero{
+    background-color: var(--mainGreen);
+}
+
+.home__btn{
+    border-radius: 5px;
+    border: none;
+}
+
+.wrapper{
+    padding-bottom: 80px;
+}
+
+@media (max-width: 375px) {
+    .wrapper{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .left__side{
+        padding-top: 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .right__side{
+        img{
+            width: 335px;
+            height: 197px;
+        }
+        
+    }
+}
+
+// HERO END
+
+
+// BUILD START
+.build__p{
+    color: var(--mainGreen);
+    text-align: center;
+    font-size: 20px;
+}
+.build__btn{
+    width: 170px;
+    height: 48px; 
+    border-radius: 5px;
+    margin-top: 100px;
+    margin: 0 570px;
+}
+
+@media (max-width: 375px){
+    .build__list{
+        flex-direction: column;
+    }
+    .build__item{
+        margin-top: 50px;
+    }
+    .build__btn{
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-left: 80px;  
+    }
+}
+//  BUILD END
+
+//BUILD 2 START
+.build2__btn{
+    width: 170px;
+    height: 48px; 
+    border-radius: 5px;
+}
+.build2__about{
+    padding-left: 150px;
+}
+
+.build2__text{
+    color: gray;
+}
+
+@media(max-width:375px){
+    .build__2{
+        padding-top: 80px;
+    }
+    .build2__banner{
+        width: 335px;
+        height: 240px;
+    }
+    .build2__inner{
+        flex-wrap: wrap;
+    }
+    .build2__about{
+        padding-top: 35px;
+        margin-left: -120px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .build2__text{
+        font-size: 15px;
+    }
+}
+//BUILD 2 END
+
+//BUILD 3 START
+.build3{
+    padding-top: 100px;
+}
+
+.build3__btn{
+    width: 170px;
+    height: 48px; 
+    border-radius: 5px;
+}
+// .build3__about{
+//     padding-left: 150px;
+// }
+
+.build3__text{
+    color: gray;
+}
+
+@media(max-width:375px){
+    .build3__inner{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .build3__img{
+        img{
+            width: 335px;
+            height: 315.87px;
+        }
+    }
+    .build3__about{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+}
+
+// BUILD 3 END
+
+//BUILD 4 START
+.build4{
+    padding-top: 100px;
+}
+.build4__p{
+    color: var(--mainGreen);
+}
+.build4__btn{
+    width: 170px;
+    height: 48px; 
+    border-radius: 5px;
+    margin-left: 570px;
+}
+
+@media(max-width:375px){
+    .build4__list{
+        flex-wrap: wrap;
+    }
+    .my__card{
+        width: 280px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .build4__btn{
+        width: 170px;
+        height: 48px; 
+        border-radius: 5px;
+        margin-left: 70px;
+    }
+    
+
+}
+
+// BUILD4 END

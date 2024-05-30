@@ -1,0 +1,19 @@
+:root{
+    --mainDark:#212529;
+    --mainGreen:#74C69D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+ul, ol{
+    list-style-type: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+
+
+
+
+
+.services__p{
+    color: var(--mainGreen);
+}
+.services__list{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.services__item{
+    width: 339px;
+    height: 542px;
+    span{
+        color: gray;
+    }
+    .card__text{
+        color: gray;
+    }
+}
+.services__btn{
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+@media(max-width:375px){
+    .services__list{
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .services__item{
+        margin-top: 30px;
+    }
+
+}

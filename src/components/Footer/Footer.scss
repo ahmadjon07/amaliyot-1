@@ -1,0 +1,10 @@
+footer{
+    background-color: var(--mainGreen);
+}
+
+@media(max-width:375px){
+    .footer__inner{
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+}
